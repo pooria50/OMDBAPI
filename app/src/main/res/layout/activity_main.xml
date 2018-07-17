@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".SearchFilms.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edittext_searchfilm"
+        android:padding="15dp"
+        android:hint="Plz Enter Your Film Name :"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:text="Search"
+        android:padding="15sp"
+        android:id="@+id/btn_search"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/myRecycler"
+        android:paddingTop="20sp"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textview_title"
+        android:textSize="15sp"
+        android:textAppearance="@color/colorPrimary"
+        android:layout_margin="10sp"
+        android:paddingTop="5sp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textview_actor"
+        android:textSize="15sp"
+        android:textAppearance="@color/colorPrimary"
+        android:textAlignment="center"
+        android:paddingTop="5sp"
+
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textview_award"
+        android:textSize="15sp"
+        android:paddingTop="5sp"
+
+        android:textAppearance="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textview_director"
+        android:paddingTop="5sp"
+
+        android:textSize="15sp"
+        android:textAppearance="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textview_genre"
+        android:textSize="15sp"
+        android:paddingTop="5sp"
+
+        android:textAppearance="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textview_year"
+        android:textSize="15sp"
+        android:paddingTop="5sp"
+
+        android:textAppearance="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/img_show"
+        android:padding="10sp"
+        android:layout_margin="10sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />-->
+
+</LinearLayout>
