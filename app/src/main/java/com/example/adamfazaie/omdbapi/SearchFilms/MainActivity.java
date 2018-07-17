@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                                 .poster(body.getPoster().toString())
                                 .build();
 
-
+//
                         List<FilmSearcher> filmSearchers = new ArrayList<>();
                         filmSearchers.add(searcher);
                         FilmsAdapter adapter = new FilmsAdapter(MainActivity.this, filmSearchers);
